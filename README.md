@@ -33,8 +33,8 @@ It also includes Swagger/OpenAPI documentation.
 
 1. Clone repository
 ```bash
-git clone https://github.com/fajarpostman/hyper-hire-tinder-apps.git
-cd hyper-hire-tinder-apps/laravel/hyper-hire-soo-carrots-laravel
+git clone https://github.com/fajarpostman/backend-tinder-apps.git
+cd backend-tinder-apps
 ```
 
 2. Install dependecies
