@@ -85,7 +85,8 @@ php artisan l5-swagger:generate
 http://127.0.0.1:8000/api/documentation
 ```
 
-![swagger_documentation](image.png)
+<img width="1439" height="748" alt="image" src="https://github.com/user-attachments/assets/bf76bee4-aab9-43d9-bdf3-27c646746d99" />
+
 
 7. Check Popular People
 ```bash
