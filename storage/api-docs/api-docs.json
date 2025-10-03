@@ -1,0 +1,87 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "title": "Hyper Hire Soo Carrots Laravel",
+        "description": "API documentation for Technical Assessment Fajar Dwi Rianto",
+        "contact": {
+            "email": "fajardwirianto3@gmail.com"
+        },
+        "version": "1.0.0"
+    },
+    "servers": [
+        {
+            "url": "http://localhost:8000",
+            "description": "API Server"
+        }
+    ],
+    "paths": {
+        "/api/v1/people": {
+            "get": {
+                "tags": [
+                    "People"
+                ],
+                "summary": "Get list of people",
+                "operationId": "25c145ff7d022b771448cf237abd85be",
+                "responses": {
+                    "200": {
+                        "description": "Successful operation"
+                    }
+                }
+            }
+        },
+        "/api/v1/people/{id}/like": {
+            "post": {
+                "tags": [
+                    "People"
+                ],
+                "summary": "Like a person",
+                "operationId": "58853279e2a43f763ea8e58ffd33958a",
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "path",
+                        "required": true,
+                        "schema": {
+                            "type": "integer"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Liked successfully"
+                    }
+                }
+            }
+        },
+        "/api/v1/people/{id}/dislike": {
+            "post": {
+                "tags": [
+                    "People"
+                ],
+                "summary": "Dislike a person",
+                "operationId": "37ce9b7dd66924bd03951263f47098f1",
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "path",
+                        "required": true,
+                        "schema": {
+                            "type": "integer"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Dislike successfully"
+                    }
+                }
+            }
+        }
+    },
+    "tags": [
+        {
+            "name": "People",
+            "description": "People"
+        }
+    ]
+}
